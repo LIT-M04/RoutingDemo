@@ -11,6 +11,7 @@ namespace MvcApplication34.Controllers
     [RoutePrefix("/cats")]
     public class CategoryController : Controller
     {
+        [Route("index")]
         public ActionResult Index()
         {
             return View();
